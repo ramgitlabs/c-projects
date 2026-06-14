@@ -2,6 +2,6 @@
 intmain()
 {
    //my first program in c
-    printf("hellow,world!");
+    printf("hellow,world git!   ");
      return 0;
 }
