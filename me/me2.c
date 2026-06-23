@@ -16,7 +16,7 @@ int main()
     int sum = sumfunc(m1, x, y);
     printf("The sum of all the elements in the given matrix is %d", sum);
 }
-void buildmatrix(int mat[][3], int rows, int columns)
+void buildmatrix(int mat[][y], int rows, int columns)
 {
     int i, j;
     for(i = 0; i < rows; i++)
