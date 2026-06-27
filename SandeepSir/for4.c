@@ -3,7 +3,6 @@
 int main()
 {
     int  temp, factorial, number, i;
-    number = 1;
     factorial = 1;
     printf("Enter the number for which you want factorial: ");
     scanf("%d", &number);
