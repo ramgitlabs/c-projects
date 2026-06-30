@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int lenofstr(char *pstr)
 {
@@ -20,8 +21,18 @@ void concat(char *pstr, char *pstr2)
 
 int main()
 {
-  char buffer[100];
-  char buffer2[100];
+  // char buffer[100];
+  // char buffer2[100];
+  printf("enter how many elements of array you want in buffer: ");
+  int n1;
+  scanf("%d", &n1);
+  char *buffer = (char*)malloc(sizeof(char)*n1);
+  printf("enter how many elements of array you want in buffer2: ");
+  int n2;
+  scanf("%d", &n2);
+  char *buffer2 = (char*)malloc(sizeof(char)*n2);
+  char ent;
+  scanf("%c", &ent);
   printf("Enter the original string: ");
   gets(buffer);
   printf("enter the string to append: ");
